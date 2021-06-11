@@ -1,0 +1,72 @@
+/* p.error{
+    color:red;
+}
+p.success{
+    color: #4fdb4f
+}
+p.success.feedback{
+    border: 1px dashed #4fdb4f;
+}
+
+div#content{
+    background-color: #EBEBEB;
+    padding: 20px;
+} */
+/* div p{
+    color: purple;
+}
+
+div .error{
+    color:red;
+} */
+
+/* a[href]{
+    background-color: #3dd13d;
+} */
+
+/* a[href="https://www.thenetninja.co.uk"]{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+/* 
+a[href*="thenetninja"]{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* a[href*="google"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+/* $ means ends with */
+/* a[href$="google"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+/* inheritance */
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p{
+    color: orange;
+}
